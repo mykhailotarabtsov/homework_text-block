@@ -11,7 +11,7 @@ body {
 main {
 	padding: 70px 70px;
 	-webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, .1), -1px -1px 10px rgba(0, 0, 0, .1);
-	        box-shadow: 1px 1px 10px rgba(0, 0, 0, .1), -1px -1px 10px rgba(0, 0, 0, .1);
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, .1), -1px -1px 10px rgba(0, 0, 0, .1);
 }
 
 h2 {
@@ -42,7 +42,8 @@ p.last-letter:before {
 .btn {
 	padding: 10px 30px;
 	font-size: 1.1rem;
-	font-weight: light;
+	background-color: transparent;
+	font-weight: 300;
 	color: #f0bf99;
 	border: 1px solid #f0bf99;
 	text-transform: uppercase;
