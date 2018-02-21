@@ -49,4 +49,5 @@ p.last-letter:before {
 	text-transform: uppercase;
 	outline: none;
 	cursor: pointer;
+	
 }
