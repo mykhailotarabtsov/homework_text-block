@@ -1,0 +1,51 @@
+html, body {
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	padding: 60px 40px;
+	color: #171717;
+}
+
+main {
+	padding: 70px 70px;
+	-webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, .1), -1px -1px 10px rgba(0, 0, 0, .1);
+	        box-shadow: 1px 1px 10px rgba(0, 0, 0, .1), -1px -1px 10px rgba(0, 0, 0, .1);
+}
+
+h2 {
+	font-size: 42px;
+	font-family: serif;
+	font-weight: regular;
+}
+
+p {
+	font-weight: 300;
+}
+
+p.first-letter:first-letter {
+	font-size: 110px;
+	font-family: serif;
+	float: left;
+  margin-top: -22px;
+  margin-right: 10px;
+}
+p.last-letter:before {
+	content: ' “';
+	font-family: Lato, sans-serif;
+	font-size: 50px;
+	font-weight: 300;
+	margin-right: 5px;
+}
+
+.btn {
+	padding: 10px 30px;
+	font-size: 1.1rem;
+	font-weight: light;
+	color: #f0bf99;
+	border: 1px solid #f0bf99;
+	text-transform: uppercase;
+	outline: none;
+	cursor: pointer;
+}
